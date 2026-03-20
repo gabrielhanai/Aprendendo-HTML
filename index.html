@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Meu Primeiro Site</title>
+        <meta name="description" content="Meu primeiro site, feito com HTML">
+    </head>
+    <body>
+        <header>
+            <h1>Quiz interativo para programadores</h1>
+            <p>Teste seus conhecimentos de programação com nosso quiz interativo! Responda perguntas sobre linguagens de programação, algoritmos e muito mais. Desafie-se e aprenda enquanto se diverte!</p>
+        </header>
+        <main>
+            <section> <!--introdução-->
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este quiz </strong>é projetado para ajudar programadores de todos os níveis a testar e aprimorar seus conhecimentos. <br> Com uma variedade de perguntas que abrangem diferentes <em>tópicos de programação</em>, <br> você pode desafiar a si mesmo e aprender algo novo a cada rodada como <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. <br> Prepare-se para se divertir enquanto expande suas habilidades de programação!</p>
+            </section>
+            <section> <!--pergunta 1: múltipla escolha-->
+                <h2>PERGUNTA 1: Qual é a linguagem utilizada para estruturar páginas web?</h2>
+                <form>
+                    <input type = "radio" value = "python" id = "p1a" name = "pergunta1">
+                    <label for = "p1a">Python</label><br>
+                    <input type = "radio" value = "html" id = "p1b" name = "pergunta1">
+                    <label for = "p1b">HTML</label><br> 
+                    <input type = "radio" value = "c" id = "p1c" name = "pergunta1">
+                    <label for = "p1c">C</label><br>
+                    <input type = "radio" value = "css" id = "p1d" name = "pergunta1">
+                    <label for = "p1d">CSS</label><br>
+                    <input type = "radio" value = "java" id = "p1e" name = "pergunta1">
+                    <label for = "p1e">Java</label> 
+                </form>
+            </section>
+            <section> <!--pergunta 2: texto-->
+                <h2>PERGUNTA 2: Na URL https://www.google.com o trecho "google.com" é o _____</h2>
+                <form>
+                    <input type = "text" id = "p2" name = "pergunta2" placeholder = "Digite a sua resposta">                
+                </form>
+            </section>
+            <section> <!--pergunta 3: senha-->
+                <h2>PERGUNTA 3: escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type = "password" id = "p3" name = "pergunta3" placeholder = "Digite uma senha">
+                </form>
+            </section>
+            <section><!--pergunta 4: data-->
+                <h2>PERGUNTA 4: Em que ano o HTML lançou a sua primeira versao?</h2>
+                <form>
+                    <input type = "date" id = "p4" nome = "pergunta4">
+                </form>
+            </section>
+            <section><!--pergunta 5: seleção múltipla checkbox-->
+                <h2>PERGUNTA 5: quais dessas tecnologias sao consideradas linguagem de programação?</h2>
+                <form>
+                    <input type = "checkbox" value = "python" id = "p5a" nome = "pergunta5">
+                    <label for = "p5a">Python</label><br>
+                    <input type = "checkbox" value = "html" id = "p5b" nome = "pergunta5">
+                    <label for = "p5b">HTML</label><br>
+                    <input type = "checkbox" value = "c" id = "p5c" nome = "pergunta5">
+                    <label for = "p5c">C</label><br>
+                    <input type = "checkbox" value = "css" id = "p5d" nome = "pergunta5">
+                    <label for = "p5d">CSS</label><br>
+                    <input type = "checkbox" value = "javascript" id = "p5e" nome = "pergunta5">
+                    <label for = "p5e">Javascript</label>
+                </form>
+
+            </section>
+            <section><!--pergunta 6: upload de arquivo -->
+                <h2>PERGUNTA 6: Faça um upload de um arquivo contendo código HTML</h2>
+                <form>
+                    <input type = "file" id = "p6" name = "pergunta6">
+                </form>
+            </section>
+            <section><!--pergunta 7: menu suspenso-->
+                <h2>PERGUNTA 7: Selecione o atributo do input que define o seu tipo</h2>
+                <form>
+                    <select> name="pergunta7" id="p7">
+                        <option value = "id">id</option>
+                        <option value = "class">class</option>
+                        <option value = "type">type</option>
+                        <option value = "name">name</option>
+                    </select>
+                </form>
+            </section>
+            <section><!--pergunta 8: imagem-->
+                <h2>PERGUNTA 8: Qual linguagem de programação é correspondente ao logo abaixo?</h2>
+                <figure>
+                <img src = "java_original_logo_icon_146458.png" alt = "logo">
+                    <figcaption>Logotipo de uma linguagem de programação</figcaption>
+                </figure>
+                <input type = "text" id = "p8" name = "pergunta8" placeholder = "Digite a sua resposta">
+            </section>
+            <section><!--tabella de pontuacao-->
+                <h2>Tabela de Pontuação</h2>
+                <table border = "1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Feedback</th>
+                        </tr>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista, cada tentativa é uma oportunidade de aprendizado!</td>
+                    </tr>
+                    <tr>
+                        <td>3-5</td>
+                        <td>Bom trabalho! Você tem um conhecimento sólido, continue praticando para aprimorar ainda mais suas habilidades.</td>
+                    </tr>
+                    <tr>
+                        <td>6-7</td>
+                        <td>Parabéns! Você é um programador habilidoso, continue evoluindo e desafiando-se com novos projetos.</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Excelente! Você é um mestre da programação, continue explorando novas tecnologias e compartilhando seu conhecimento com a comunidade.</td>
+                </table>
+            </section>
+            <section><!--lista de respostas-->
+                <h2>Verifique as suas respostas</h2>
+                <ul>
+                    <li>Resposta 1: HTML</li>
+                    <li>Resposta 2: domínio</li>
+                    <li>Resposta 3: Exemplo de senha forte: "P@ssw0rd!2024"</li>
+                    <li>Resposta 4: 1993</li>
+                    <li>Resposta 5: Python, C, Javascript</li>
+                    <li>Resposta 6: (depende do arquivo enviado pelo usuário)</li>
+                    <li>Resposta 7: type</li>
+                    <li>Resposta 8: Java</li>
+                </ul>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+
+</html>

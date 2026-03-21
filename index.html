@@ -116,7 +116,9 @@
             </section>
             <section><!--lista de respostas-->
                 <h2>Verifique as suas respostas</h2>
-                <ul>
+                <details>
+                <summary>Clique aqui para ver as respostas do quiz</summary>
+                <ol>
                     <li>Resposta 1: HTML</li>
                     <li>Resposta 2: domínio</li>
                     <li>Resposta 3: Exemplo de senha forte: "P@ssw0rd!2024"</li>
@@ -125,10 +127,28 @@
                     <li>Resposta 6: (depende do arquivo enviado pelo usuário)</li>
                     <li>Resposta 7: type</li>
                     <li>Resposta 8: Java</li>
-                </ul>
+                </ol>
+                </details>
             </section>
+            <section> <!--formulario de feedback-->
+                <h2>Nos dê seu feedback sobre o quiz!</h2>
+                <form>
+                    <fieldset>
+                        <legend>Formulário de Feedback</legend>
+                    <label for = "name">Digite o seu nome:</label>
+                    <input type = "text" id = "name" name = "name" placeholder = "Digite seu nome"><br>
+                    <label for = "email">Digite o seu email:</label>
+                    <input type = "email" id = "email" name = "email" placeholder = "Digite seu email"><br>
+                    <label for = "comentarios">Digite seus comentários:</label><br>
+                    <textarea id = "comentarios" name = "comentarios" rows = "4" cols = "39" placeholder = "Digite seus comentários"></textarea>
+                    </fieldset>
+                </form>
+            </section> 
         </main>
-        <footer></footer>
+        <footer>
+            <p>Copyright © 2024 Quiz Interativo para Programadores. Todos os direitos reservados.</p>
+            <p>Para conhecer outros quizzes <a href="https://github.com/gabrielhanai">clique aqui</a></p>
+        </footer>
     </body>
 
 </html>

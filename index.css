@@ -4,7 +4,7 @@ h1{
     background-color: black;
 }
 h2{
-    color: rgb(0, 255, 13);
+    color: rgb(0, 255, 21);
     background-color: black;
 }
 #descricao{
@@ -14,4 +14,7 @@ h2{
 #descricao2{
     color: rgb(217, 255, 0);
     background-color: black;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.87);
 }

@@ -26,6 +26,7 @@ Este projeto foi desenvolvido para testar e aprimorar meus conhecimentos em HTML
 
 1. Faça o download do arquivo `index.html`.
 2. Abra o arquivo em qualquer navegador de sua preferência.
+3. Ou acesse o link [https://gabrielhanai.github.io/Aprendendo-HTML/](https://gabrielhanai.github.io/Aprendendo-HTML/)
 
 ## Próximos passos
 

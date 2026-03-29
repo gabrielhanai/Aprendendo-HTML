@@ -18,3 +18,14 @@ h2{
 body {
     background-color: rgba(0, 0, 0, 0.87);
 }
+#verifique-suas-respostas{
+    color: rgb(0, 255, 13);
+    background-color: black;
+}
+#sumario{
+    color: rgb(255, 238, 0);
+    background-color: black;
+}
+#respostas{
+    color: rgb(255, 0, 221);
+}
